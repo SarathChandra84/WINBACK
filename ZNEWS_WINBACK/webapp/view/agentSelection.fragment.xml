@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+     xmlns="sap.m" 
+     xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="Agent Selection"
+		multiSelect="false"
+		class=""
+		items=""
+		search="_handleSearch"
+		confirm="_handleClose"
+		cancel="_handleClose">
+		<StandardListItem
+			iconInset="false"
+			title="John Smith" />
+	</SelectDialog>
+</core:FragmentDefinition>

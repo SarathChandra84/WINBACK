@@ -1,0 +1,137 @@
+<mvc:View
+	controllerName="nrg.winback.controller.App"
+    xmlns:www="http://www.w3.org/1999/xhtml"
+    xmlns="sap.m"
+    xmlns:wb="control.winback"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:co="sap.ui.commons"
+    xmlns:c="control.winback"
+    xmlns:l="sap.ui.commons.layout"
+    xmlns:core="sap.ui.core"
+	height="100%"
+    width="100%"
+	displayBlock="true">
+    <App class="nrgWBApp" id="app">
+        <pages>
+            <VBox class="nrgWBbox">
+                <VBox class="nrgWBcontent1">
+                    <Table class="nrgWBtable1" id="nrgWBInfoTable1" items = "{Winbacks}">
+                        <headerToolbar>
+                            <Toolbar class="nrgWBtoolbar1">
+                                <Title text="{i18n>nrg-winback-table1-toolBar-title}" class="nrgWBtoolBarTitle1"/>
+                                <Label text="{i18n>nrg-winback-table1-toolBar-label}" class="nrgWBtoolBarLabel1" />
+                                <ComboBox class="nrgWBcomboBox" enabled="false" width="10%" >
+                                	
+                                </ComboBox>
+                            </Toolbar>
+                        </headerToolbar>
+                        <columns>
+                            <Column width="12em" hAlign="Center" styleClass="nrgWBcolumn1">
+                                <Text text="{i18n>nrg-winback-table1-columnLabel1}" class="nrgWBtext1" />
+                            </Column>
+                            <Column width="12em" hAlign="Center" styleClass="nrgWBcolumn1">
+                                <Text text="{i18n>nrg-winback-table1-columnLabel2}" class="nrgWBtext1" />
+                            </Column>
+                            <Column width="12em" hAlign="Center" styleClass="nrgWBcolumnCB">
+                                <Text text="{i18n>nrg-winback-table1-columnLabel3}" class="nrgWBtext1" />
+                            </Column>
+                            <Column width="12em" hAlign="Center" styleClass="nrgWBcolumn1">
+                                <Text text="{i18n>nrg-winback-table1-columnLabel4}" class="nrgWBtext1" />
+                            </Column>
+                            <Column width="12em" hAlign="Center" styleClass="nrgWBcolumn1">
+                                <Text text="{i18n>nrg-winback-table1-columnLabel5}" class="nrgWBtext1" />
+                            </Column>
+                            <Column width="12em" hAlign="Center" styleClass="nrgWBcolumntextButton">
+                                <Text text="{i18n>nrg-winback-table1-columnLabel6}" class="nrgWBtext1" />
+                            </Column>
+                            <Column width="12em" hAlign="Center" styleClass="nrgWBcolumn1">
+                                <Text text="{i18n>nrg-winback-table1-columnLabel7}" class="nrgWBtext1"/>
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem class="nrgWBcolumnList1">
+                                <cells>
+                                    <Text text="Notification Date" class="nrgWBcellText1" />
+                                    <Text text="Utility" class="nrgWBcellText1" />
+                                    <!--<Text text="Not contacted" class="nrgWBcellText1" />-->
+                                    <ComboBox width="70%" enabled="false">
+										<!--<core:Item key="{comp-plans>Product}" text="{comp-plans>PlanDesc}" />-->
+									</ComboBox>
+                                    <Text text="12/24/2016 12:12" class="nrgWBcellText1" />
+                                    <Text text="{Winbacks>UAN}" class="nrgWBcellText1" />
+                                    <!--<Text text="John Smith" class="nrgWBcellText1" />-->
+                                    <Button text="John Smith" press="onOpenDialog"/>
+                                    <!--<Text text="12/24/2016" class="nrgWBcellText1" />-->
+                                    <Button text="Mark Unqulified" class="nrgWBmarkButton" />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                    <Button text="{i18n>nrg-winback-table-button}" class="nrgWBbutton1"/>
+                </VBox>
+                <VBox class="nrgWBcontent2">
+                    <Table class="nrgWBtable2">
+                        <headerToolbar>
+                            <Toolbar class="nrgWBtoolbar2">
+                                <VBox>
+                                    <Title text="{i18n>nrg-winback-table2-toolBar-title}" class="nrgWBtoolBarTitle2"/>
+                                    <HBox>
+                                        <Button text="{i18n>nrg-winback-table2-toolBar-button1}" class="nrgWBtoolBarButton2"/>
+                                        <Button text="{i18n>nrg-winback-table2-toolBar-button2}" class="nrgWBtoolBarButton2" />
+                                    </HBox>
+                                </VBox>
+                            </Toolbar>
+                        </headerToolbar>
+                        <columns>
+                            <Column width="3em" hAlign="Center" styleClass="nrgWBcolumnCB"></Column>
+                            <Column width="9em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel1}" class="nrgWBtext2" />
+                            </Column>
+                            <Column width="9em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel2}" class="nrgWBtext2" />
+                            </Column>
+                            <Column width="9em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel3}" class="nrgWBtext2" />
+                            </Column>
+                            <Column width="7em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel4}" class="nrgWBtext2" />
+                            </Column>
+                            <Column width="7em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel5}" class="nrgWBtext2" />
+                            </Column>
+                            <Column width="9em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel6}" class="nrgWBtext2"/>
+                            </Column>
+                            <Column width="9em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel7}" class="nrgWBtext2" />
+                            </Column>
+                            <Column width="9em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel8}" class="nrgWBtext2" />
+                            </Column>
+                            <Column width="13em" hAlign="Center" styleClass="nrgWBcolumn2">
+                                <Text text="{i18n>nrg-winback-table2-columnLabel9}" class="nrgWBtext2"/>
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem class="nrgWBcolumnList2">
+                                <cells>
+                                    <CheckBox class="nrgWBcheckBox" />
+                                    <Text text="99999999" class="nrgWBcellText2" />
+                                    <Text text="9999999999" class="nrgWBcellText2" />
+                                    <Text text="12/12/2016" class="nrgWBcellText2" />
+                                    <Text text="utility" class="nrgWBcellText2" />
+                                    <Text text="Contacted" class="nrgWBcellText2" />
+                                    <Text text="12/15/2016 12:12" class="nrgWBcellText2" />
+                                    <Text text="999999999" class="nrgWBcellText2" />
+                                    <Text text="John Smith" class="nrgWBcellText2" />
+                                    <Text text="12/12/2016 12:12" class="nrgWBcellText2" />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                    <Button text="{i18n>nrg-winback-table-button}" class="nrgWBbutton2" />
+                </VBox>
+            </VBox>
+        </pages>
+    </App>
+</mvc:View>

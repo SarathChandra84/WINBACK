@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:DataServices
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="1.0">
+        <Schema Namespace="Winback.Models"
+            xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+            xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+            xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+            <EntityType Name="Winback">
+                <Key>
+                    <PropertyRef Name="BP" />
+                </Key>
+                <Property Name="BP" Type="Edm.Decimal" />
+                <Property Name="CA" Type="Edm.Decimal" />
+                <Property Name="UAN" Type="Edm.Decimal" />
+                <Property Name="NotificationDate" Type="Edm.DateTime" />
+                <Property Name="Type" Type="Edm.String" />
+                <Property Name="Status" Type="Edm.String" />
+                <Property Name="StatusDate" Type="Edm.DateTime" />
+                <Property Name="AssigneeID" Type="Edm.Decimal" />
+                <Property Name="Assignee" Type="Edm.String" />
+                <Property Name="DesignatedUnqualified" Type="Edm.DateTime" />
+            </EntityType>
+            <EntityContainer m:IsDefaultEntityContainer="true">
+                <EntitySet Name="Winbacks" EntityType="Winback.Models.Winback"/>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
+
+

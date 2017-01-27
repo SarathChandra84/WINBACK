@@ -1,0 +1,14 @@
+[
+  {
+  	"BP": 111111111,
+	"CA": 111111111,
+	"UAN": 111111111,
+	"NotificationDate": "2015-04-01T00:00:00",
+	"Type": "Utility1",
+	"Status": "Not Contacted1",
+	"StatusDate": "2015-04-01T00:00:00",
+	"AssigneeID": 9999999991,
+	"Assignee": "John Smith1",
+	"DesignatedUnqualified": ""
+  }
+]

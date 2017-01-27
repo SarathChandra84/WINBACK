@@ -1,0 +1,330 @@
+.nrgWBbody {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.nrgWBApp {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.nrgWBApp > .nrgWBbox {
+	display: inline-block;
+    height: auto;
+    vertical-align: top;
+    margin: 5%;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 {
+	display: inline-block;
+    height: auto;
+    vertical-align: top;
+    background: #eaeff4;
+    width: 100%;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 {
+	display: inline-block;
+    vertical-align: top;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBbutton1 {
+	margin-left: 20px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBbutton1 > div > .sapMBtnContent {
+	background-color: #5092ce;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBbutton1 > div > .sapMBtnContent:hover {
+	background-color: #83bbe5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBbutton1 > .sapMBtnInner.sapMBtnText {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > .nrgWBtoolbar1 {
+	background: #eaeff4;
+	padding-bottom: 5px;
+	margin-top: 10px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > .nrgWBtoolbar1 > .nrgWBcomboBox {
+	
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > .nrgWBtoolbar1 > .nrgWBcomboBox > .sapMInputBaseInner {
+	background:#eaeff4;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > .nrgWBtoolbar1 > .nrgWBtoolBarTitle1 {
+	font-size: 1.4rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > .nrgWBtoolbar1 > .nrgWBtoolBarLabel1 {
+	margin-left: 100px;
+	margin-right: 10px;
+	font-size: 1rem;
+}
+
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > thead > tr > .nrgWBcolumn1 {
+	background: #eaeff4;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > thead > tr > .nrgWBcolumntextButton {
+	background: #eaeff4;
+}
+
+.sapMBtn:focus .sapMBtnFocusDiv {
+	border: none;
+}
+
+html.sap-desktop .sapMListTblRow:focus {
+	outline:none;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumntextButton > button > .sapMBtnDefault {
+	background: white;
+	border: none;
+	color:#5092ce;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumntextButton > button > .sapMBtnInner {
+	background: white;
+	border: none;
+	color:#5092ce;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumntextButton > button > .sapMBtnInner:hover {
+	color: red;
+	background: white;
+	border: none;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > thead > tr > .nrgWBcolumnCB {
+	background: #eaeff4;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumnCB {
+	padding-bottom: 0;
+    padding-top: 0;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumnCB > .sapMComboBoxTextField {
+	border: 2px solid #bfbfbf;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumnCB > div > .sapMComboBoxTextFieldArrow {
+
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumntextButton {
+	padding-bottom: 0;
+    padding-top: 0;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 > .sapMBtn {
+	height: 0;
+	padding:0;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 > .nrgWBmarkButton {
+	
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 > .nrgWBmarkButton > div > .sapMBtnContent {
+	line-height: 0;
+	color: white;
+	overflow: visible;
+	margin-top: 8px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 > .nrgWBmarkButton > .sapMBtnInner {
+	height: 1.3rem;
+	color: white;
+	background: #5092ce;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 > .nrgWBmarkButton > .sapMBtnInner:hover {
+	height: 1.3rem;
+	color: white;
+	background: #83bbe5;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 > .nrgWBmarkButton > span > .sapMBtnContent {
+	line-height:initial;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > thead > tr > .nrgWBcolumn1 > .nrgWBtext1 {
+	font-size: 1rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > thead > tr > .nrgWBcolumnCB > .nrgWBtext1 {
+	font-size: 1rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > thead > tr > .nrgWBcolumntextButton > .nrgWBtext1 {
+	font-size: 1rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > thead > tr > .nrgWBcolumntextButton > .button > div > .sapMBtnContent {
+	font-size: 1rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 {
+	background: #ffffff;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 {
+
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent1 > div > .nrgWBtable1 > table > tbody > .nrgWBcolumnList1 > .nrgWBcolumn1 > .nrgWBcellText1 {
+	font-size: 0.9rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 {
+	display: inline-block;
+    height: auto;
+    vertical-align: top;
+    margin-top: 5%;
+    background: #eaeff4;
+    width: 100%;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 {
+	display: inline-block;
+    vertical-align: top;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBbutton2 {
+	margin-left: 20px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBbutton2 > div > .sapMBtnContent {
+	background-color: #5092ce;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBbutton2 > div > .sapMBtnContent:hover {
+	background-color: #83bbe5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBbutton2 > .sapMBtnInner.sapMBtnText {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 {
+	background: #eaeff4;
+	height:auto;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 > div > div > .nrgWBtoolBarTitle2 {
+	margin-bottom: 5px;
+	font-size: 1.4rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 > div > div > div > .nrgWBtoolBarButton2 {
+	background-color: #f7f7f7;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height:auto;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 > div > div > div > .nrgWBtoolBarButton2 > span > .sapMBtnContent {
+	line-height: 1.5rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 > div > div > div > .nrgWBtoolBarButton2 > .sapMBtnInner {
+	height: 1.5rem;
+	border:none;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 > div > div > div > .nrgWBtoolBarButton2 > div > .sapMBtnContent {
+	background-color: #5092ce;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 > div > div > div > .nrgWBtoolBarButton2 > div > .sapMBtnContent:hover {
+	background-color: #83bbe5;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border:none;
+}
+
+html.sap-desktop .sapMBtn:focus>.sapMFocusable {
+	outline:none;
+}
+
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > .nrgWBtoolbar2 > div > div > div > .nrgWBtoolBarButton2 > .sapMBtnInner.sapMBtnText {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > thead > tr > .nrgWBcolumn2 {
+	background: #eaeff4;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > thead > tr > .nrgWBcolumnCB {
+	background: #eaeff4;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > thead > tr > .nrgWBcolumn2 > .nrgWBtext2 {
+	font-size: 1rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > tbody > .nrgWBcolumnList2 {
+	background: #ffffff;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > tbody > .nrgWBcolumnList2 > .nrgWBcolumn2 {
+
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > tbody > .nrgWBcolumnList2 > .nrgWBcolumn2 > .nrgWBcellText2 {
+	font-size: 0.9rem;
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > tbody > .nrgWBcolumnList2 > .nrgWBcolumnCB {
+	height: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px
+}
+
+.nrgWBApp > .nrgWBbox > .nrgWBcontent2 > div > .nrgWBtable2 > table > tbody > .nrgWBcolumnList2 > .nrgWBcolumnCB > .nrgWBcheckBox {
+	height: 5px;
+}
